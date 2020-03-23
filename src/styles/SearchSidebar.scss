@@ -1,0 +1,23 @@
+.search-sidebar {
+    border-left: 1px solid;
+    padding-left: 1rem;
+
+    &_input {
+        background: $color-background-lighter;
+        color: $color-foreground;
+        border-radius: .5rem;
+        outline: none;
+        width: 100%;
+        border: 1px solid $color-primary;
+        padding: .5rem;
+        box-sizing: border-box;
+
+        &:focus {
+            border: 1px solid $color-foreground;
+        }
+
+        &:disabled {
+            opacity: .6;
+        }
+    }
+}

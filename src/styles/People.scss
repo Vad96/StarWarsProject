@@ -1,0 +1,53 @@
+.app-wrapper {
+    min-width: 320px;
+    max-width: 768px;
+    height: 100vh;
+    margin: 0 auto;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: $color-background;
+}
+
+.page-wrapper {
+    padding: 1rem;
+}
+
+.main-content_wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 1rem;
+    min-height: 34rem;
+}
+
+.people-list {
+    &_item {
+        padding: .5rem 0;
+
+        a {
+            color: $color-foreground;
+        }
+    }
+}
+
+.spinner-container {
+    min-height: 23rem;
+    text-align: center;
+}
+
+.pagination-button {
+    background-color: $color-foreground;
+    border: none;
+    color: $color-background;
+    padding: .5rem 1rem;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+    &:active {
+        color: $color-secondary;
+    }
+}
+
+.previous-button {
+    margin-right: .5rem;
+}

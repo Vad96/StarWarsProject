@@ -1,0 +1,19 @@
+.favorites {
+    &-header {
+        margin-top: 0;
+    }
+
+    &-item {
+        padding: .5rem;
+
+        &:nth-child(odd) {
+            background-color: $color-primary;
+            color: $color-background;
+        }
+
+        &:nth-child(even) {
+            background-color: $color-foreground;
+            color: $color-background;
+        }
+    }
+}

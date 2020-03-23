@@ -1,0 +1,35 @@
+.header {
+    padding: 2rem 1rem;
+    background: $color-foreground;
+    display: flex;
+    justify-content: space-between;
+
+    .main-nav {
+        &_item {
+            color: $color-accent-extra-light;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+
+            &:first-child {
+                margin-right: 2rem;
+            }
+
+            &:active {
+                color: $color-secondary;
+            }
+        }
+    }
+}
+
+
+.button {
+    background: none;
+    border: none;
+    color: $color-background;
+    font-weight: bold;
+}
+
+.logout-button {
+    margin-left: .6rem;
+}

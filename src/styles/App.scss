@@ -1,0 +1,27 @@
+$color-accent-extra-light: #e8f4f9;
+$color-secondary: #78909c;
+$color-foreground: #263238;
+$color-primary: #3a4856;
+$color-background: #fafafa;
+$color-background-lighter: #fff;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import './Header';
+@import './People';
+@import './Favorites';
+@import './HeroDetails';
+@import './SearchSidebar';
+@import './Login';
+
+body {
+    font-family: 'Roboto', sans-serif, 'Muli', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

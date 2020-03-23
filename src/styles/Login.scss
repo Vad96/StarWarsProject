@@ -1,0 +1,36 @@
+.form-signin {
+    max-width: 420px;
+    padding: 3rem 3rem 6rem;
+    margin: 0 auto;
+    border: 3px solid $color-primary;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-signin-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    position: relative;
+    height: auto;
+    padding: .8rem;
+    margin-bottom: .5rem;
+    border-color: $color-foreground;
+
+    &:focus {
+        border-color: $color-primary;
+    }
+}
+
+.form-button {
+    background-color: $color-foreground;
+
+    &:hover {
+        background-color: $color-primary;
+    }
+}

@@ -1,0 +1,15 @@
+import React from "react"
+import ReactDOM from "react-dom"
+import { HashRouter as Router } from "react-router-dom"
+
+import { ContextProvider } from "./Context"
+import App from "./App.js"
+
+ReactDOM.render(
+    <ContextProvider>
+        <Router>
+            <App />
+        </Router>
+    </ContextProvider>, 
+    document.getElementById("root")
+)
